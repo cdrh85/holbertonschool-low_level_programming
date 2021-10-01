@@ -1,6 +1,6 @@
 [200~#include <stdio.h>
 /**
- main - size of types
+* main - size of types
 *
 * Return: 0
 */
@@ -13,4 +13,5 @@ int main(void)
 	sizeof(long long int), "byte(s)");
 	printf("%s %ld %s\n", "Size of a float:", sizeof(float), "byte(s)");
 	return (0);
-}
+)
+
