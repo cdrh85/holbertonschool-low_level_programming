@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints reversed base 16 
+ * main - Prints reversed base
  * Return: Always 0 (Success)
  */
 
