@@ -6,11 +6,9 @@
  * Return: Always 0
  */
 
-
 int main(void)
 {
 	int n, ldo;
-
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
