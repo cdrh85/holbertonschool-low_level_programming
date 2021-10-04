@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints reversed 
+ * main - Prints reversed base 16 
  *
  * Return: Always 0 (Success)
  */
@@ -18,7 +18,7 @@ int main(void)
 	for (a = 'a'; a <= 'f'; a++)
 	{
 		putchar(a);
-									}
+	}								}
 	putchar('\n');
 	return (0);
 }
