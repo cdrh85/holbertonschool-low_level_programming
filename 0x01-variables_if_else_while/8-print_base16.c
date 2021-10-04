@@ -5,14 +5,20 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char alp;
+	
+	int n, a;
 
-	for (alp = 'z'; alp >= 'a'; alp--)
-	{
-		putchar(alp);
+	for (n = 48; n < 58; n++)
+        {
+		putchar(n);
 	}
+	for (a = 'a'; a <= 'f'; a++)
+	{
+		putchar(a);
+									}
 	putchar('\n');
 	return (0);
 }
