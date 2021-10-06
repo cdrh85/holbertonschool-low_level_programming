@@ -7,8 +7,6 @@
  */
 void jack_bauer(void)
 {
-void jack_bauer(void)
-{
 	int h, m, hi, hd, mi, md;
 
 	for (h = 0; h < 24; h++)
@@ -23,9 +21,7 @@ void jack_bauer(void)
 			_putchar('0' + hd);
 			_putchar(':');
 			_putchar('0' + mi);
-			_putchar('0' + md);
-			_putchar('\n');
+			_putchar('0' + md);																			_putchar('\n');
 		}
 	}
 }
-
