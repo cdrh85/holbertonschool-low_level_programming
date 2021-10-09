@@ -1,28 +1,28 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - Print if numbers are positive or negative
- * Return: Always 0
+ * largest_number - returns the largest of 3 numbers
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
  */
 
-int main(void)
+int largest_number(int a, int b, int c)
 {
-	int n;
+	int largest;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
+	if (a >= b && a >= c)
 	{
-		printf("%d is positive\n", n);
+		largest = a;
 	}
-	else if (n == 0)
+	else if (b >= a && b >= c)
 	{
-		printf("%d is zero\n", n);
+		largest = b;
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+		largest = c;
 	}
-	return (0);
+	return (largest);
 }
