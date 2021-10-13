@@ -20,7 +20,7 @@ void rev_string(char *s)
 		ptr1++;
 
 	}
-	ptr--;
+	ptr1--;
 	while (i < count / 2)
 	{
 		tmp = *ptr1;
