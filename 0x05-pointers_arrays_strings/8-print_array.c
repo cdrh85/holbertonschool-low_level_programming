@@ -16,7 +16,7 @@ void print_array(int *a, int n)
 		flag = 1;
 		n--;
 		a++;
-											}
+	}
 	putchar('\n');
 
 }
